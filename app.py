@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Docker Multibranch Pipeline!"
+    return "Hello from Docker feature branch Pipeline!"
 
 @app.route("/health")
 def health():
